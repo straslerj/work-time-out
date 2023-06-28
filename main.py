@@ -63,6 +63,6 @@ try:
 
 except KeyboardInterrupt:
     print(
-        f"\n{time.strftime('[%H:%M:%S]', time.localtime())} Program terminated.\n\t Screen time breaks taken: {screen_time_breaks}\n\tMental break breaks taken: {mental_break_breaks}"
+        f"\n{time.strftime('[%H:%M:%S]', time.localtime())} Program terminated.\n           Screen time breaks taken : {screen_time_breaks}\n           Mental break breaks taken: {mental_break_breaks}"
     )
     sys.exit(0)
