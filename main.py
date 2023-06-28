@@ -54,7 +54,7 @@ try:
                 app_icon=mental_break_icon,
             )
             print(
-                f"{time.strftime('[%H:%M:%S]', time.localtime())} Program will sleep for 17 minutes"
+                f"{time.strftime('[%H:%M:%S]', time.localtime())} Program will sleep for 17 minutes."
             )
             time.sleep(SEVENTEEN_MINUTES_SECONDS)
             mental_break_breaks += 1
