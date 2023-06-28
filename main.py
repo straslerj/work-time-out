@@ -31,7 +31,7 @@ try:
             f"{time.strftime('[%H:%M:%S]', time.localtime())} Elapsed time: {elapsed_minutes} minutes."
         )
 
-        if elapsed_minutes != 0 and elapsed_minutes % 1 == 0:
+        if elapsed_minutes != 0 and elapsed_minutes % 20 == 0:
             print(
                 f"{time.strftime('[%H:%M:%S]', time.localtime())} Screen time alert issued."
             )
