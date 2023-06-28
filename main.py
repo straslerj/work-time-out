@@ -15,13 +15,13 @@ SEVENTEEN_MINUTES_SECONDS = 17 * 60
 # Screen time messages
 screen_time_title = "Screen Time Alert"
 screen_time_message = "You have been looking at your screen for 20 minutes. Consider looking at something 20 feet away for 20 minutes."
-screen_time_icon = "screen_time.ico"
+screen_time_icon = "resources/screen_time.ico"
 screen_time_breaks = 0
 
 # Mental break messages
 mental_break_title = "Mental Break Alert"
 mental_break_message = "You have been working for 52 minutes. Research shows you should take a 17 minute break to combat fatigue."
-mental_break_icon = "mental_breal.ico"
+mental_break_icon = "resources/mental_break.ico"
 mental_break_breaks = 0
 
 try:
